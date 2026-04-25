@@ -11,3 +11,15 @@ class evaluateRequest(BaseModel):
     skills: str
     experience: str
     time_available: str
+
+class message(BaseModel):
+    role: str
+    content: str
+
+class chatRequest(BaseModel):
+    project_idea: str
+    skills: str
+    experience: str
+    time_available: str
+    evaluation_summary: str
+    messages: list[message]
