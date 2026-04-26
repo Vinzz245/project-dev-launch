@@ -23,3 +23,11 @@ class chatRequest(BaseModel):
     time_available: str
     evaluation_summary: str
     messages: list[message]
+
+class buildRequest(BaseModel):
+    project_idea: str
+    current_progress: str
+    current_blockers: str
+    skills: str
+    experience: str
+    time_remaining: str
