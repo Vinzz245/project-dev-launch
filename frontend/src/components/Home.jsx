@@ -27,7 +27,7 @@ function Home({setaActiveTab}) {
                     <p>Turning ideas into reality!</p>
                     <p>Your AI-powered assistant for discovering, evaluating, and building your projects.</p>
                 </div>
-                <button onClick={() => setaActiveTab("Discover")} className="mt-4 self-center px-6 py-3 bg-gray-900 text-white rounded-lg text-sm font-medium hover:bg-gray-700 transition-colors duration-200">
+                <button onClick={() => setActiveTab("Discover")} className="mt-4 self-center px-6 py-3 bg-gray-900 text-white rounded-lg text-sm font-medium hover:bg-gray-700 transition-colors duration-200">
                     Get Started
                 </button>
             </div>
